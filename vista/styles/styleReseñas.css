@@ -1,0 +1,154 @@
+@font-face {
+  font-family: poppins;
+  src: url("vista/fonts/Poppins-SemiBold.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.principal {
+  width: 80%;
+  font-family: poppins, sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+}
+/* Personaliza el ancho máximo de los elementos de formulario */
+.form-control-custom {
+  max-width: 300px; /* Ajusta este valor según tus preferencias */
+}
+.ini {
+  font-size: 22px;
+  border-bottom: 4px solid black;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.ini:hover {
+  color: #6d6d6d !important;
+}
+
+input::placeholder ,textarea::placeholder, select::placeholder{
+    color: #00000034;
+    text-align: center;
+    font-weight: 550;
+  }
+  
+.opcion {
+  color: rgb(92, 87, 87);
+  font-weight: 600;
+  margin-left: 30px;
+  transition: color 0.3s;
+}
+
+.opcion:hover {
+  color: #302e33 !important;
+}
+
+
+.usuario {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  padding: 50px;
+}
+
+.btnLogin {
+  border-radius: 150px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  transition: color 1s;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 500;
+}
+
+
+.btnLogin:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+  background-color: #a2a2a2;
+  color: black;
+}
+
+select {
+  padding: 15px 90px;
+  border-radius: 150px !important;
+  background-color: #efefee !important;
+  border-style: none;
+  text-align: center;
+}
+
+select option[value="placeholder"] {
+  color: #00000034;
+  font-weight: 550;
+}
+
+textarea {
+  padding: 8px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  background-color: #efefee;
+  border-style: none;
+  text-align: center;
+}
+.registrarse {
+  color: #a2a2a2;
+  font-weight: 450;
+}
+
+.registrarse:hover{
+  color: black;
+}
+
+.calificacion {
+    padding: 8px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 150px;
+    margin-bottom: 10px;
+    background-color: #efefee;
+    border-style: none;
+    text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}

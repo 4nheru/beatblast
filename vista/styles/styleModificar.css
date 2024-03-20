@@ -1,0 +1,138 @@
+@font-face {
+  font-family: poppins;
+  src: url("vista/fonts/Poppins-SemiBold.ttf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.calificacion{
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 20px;
+
+}
+
+textarea {
+  padding: 8px;
+  border-radius: 30px;
+  background-color: #efefee;
+  border-style: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.principal {
+  width: 80%;
+  font-family: poppins, sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.ini {
+  font-size: 22px;
+  border-bottom: 4px solid black;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.ini:hover {
+  color: #6d6d6d !important;
+}
+
+.opcion {
+  color: rgb(92, 87, 87);
+  font-weight: 600;
+  margin-left: 30px;
+  transition: color 0.3s;
+}
+
+.opcion:hover {
+  color: #302e33 !important;
+}
+
+.login {
+  text-align: center;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  padding: 80px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 150px;
+  margin-bottom: 10px;
+  background-color: #efefee;
+  border-style: none;
+  text-align: center;
+}
+
+input::placeholder {
+  color: #00000034;
+  text-align: center;
+  font-weight: 550;
+}
+
+.btnLogin {
+  border-radius: 150px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  transition: color 1s;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 500;
+}
+
+.usuario {
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-bottom: 20px;
+}
+
+.btnLogin:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+  background-color: #a2a2a2;
+  color: black;
+}
+
+.registrarse {
+  color: #a2a2a2;
+  font-weight: 450;
+}
+
+.registrarse:hover{
+  color: black;
+}
+
+footer {
+  margin-top: 30px;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}

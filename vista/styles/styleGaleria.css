@@ -1,0 +1,179 @@
+@font-face {
+  font-family: poppins;
+  src: url("vista/fonts/Poppins-SemiBold.ttf");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.principal {
+  width: 80%;
+  font-family: poppins, sans-serif;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.ini {
+  font-size: 22px;
+  border-bottom: 4px solid black;
+  font-weight: bold;
+  color: black;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+
+.ini:hover {
+  color: #6d6d6d !important;
+}
+
+.opcion {
+  color: rgb(92, 87, 87);
+  font-weight: 600;
+  margin-left: 30px;
+  transition: color 0.3s;
+}
+
+.opcion:hover {
+  color: #302e33 !important;
+}
+
+.custom-search {
+  position: relative;
+  background-color: #d9d9d9;
+  padding: 15px;
+  border-radius: 30px;
+  transition: border-color 0.3s ease;
+}
+.custom-search:hover {
+  border-color: #999;
+}
+
+.custom-search input[type="text"] {
+  padding-left: 45px;
+  width: 250px;
+  border-radius: 200px;
+  height: 40px;
+  border-style: none;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: auto;
+}
+
+.galeria {
+  background-color: #d9d9d9;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.carta {
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #efefee;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.carta img {
+  padding: 10px;
+  width: 60%;
+}
+
+.botonVerMas {
+  border-radius: 150px;
+  background-color: #d9d9d9;
+  color: rgb(0, 0, 0);
+  border-style: none;
+  transition: color 1s;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.botonVerMas:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+  background-color: #a2a2a2;
+  color: black;
+}
+
+.btnLogin:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+  background-color: #a2a2a2;
+  color: black;
+}
+
+/*Estilo seccion productos Admin*/
+.tablaa {
+  background-color: rgb(255, 255, 255);
+  padding: 30px;
+  border-radius: 20px;
+}
+.tablaa th {
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
+
+.btnLogin {
+  border-radius: 150px;
+  background-color: black;
+  color: white;
+  border-style: none;
+  transition: color 1s;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 18px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-weight: 500;
+}
+
+.btnLogin:hover {
+  transition: 0.3s;
+  transform: scale(1.05);
+  background-color: #a2a2a2;
+  color: black;
+}
+
+
+.table td,
+.table th {
+  border: 3px solid #000000 !important; 
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  margin: 0;
+}
